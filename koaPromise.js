@@ -95,4 +95,8 @@ getNumber().then(
         console.log(reason)
     }
 )
+Promise.all([yibu2(),yibu()])//Promise的all方法提供了并行执行异步操作的能力，并且在所有异步操作执行完后才执行回调。一个非常nice的功能
+.then(function(result){
+    console.log(result)
+})
 

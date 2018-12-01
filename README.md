@@ -1,0 +1,1 @@
+这个js文件直接node就可以啦。但是前提你要提前npm install koa一下
