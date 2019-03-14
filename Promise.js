@@ -1,21 +1,3 @@
-const Koa = require('koa');
-const app = new Koa();
-console.log(app)
-
-app.use(async(ctx,next)=>{
-    await next();
-    ctx.response.type = 'text/html';
-    ctx.response.body = '<h1>lalalalademaxiya</h1>'
-})
-app.listen(3000)
-function Xwp(name,age){
-    this.nam = name
-    this.ag = age
-    console.log(this)
-    this.say = function(){
-        console.log(this)
-    }
-}
 var boy = new Xwp("邢文鹏",23)//同一个构造函数的对象实例之间无法共享属性和方法。为了解决构造函数的这个缺点，js提供了prototype属相来解决该问题。
 // var p = new Promise(function(success,fail){
 //     setInterval(function(){
