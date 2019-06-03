@@ -1,6 +1,6 @@
 ﻿
 
-##1.Callback！
+#1.Callback！
 
 首先来看看callback吧，想必一定很熟悉吧，回调地狱！但是我没怎么用过，一直都在用Promise和async，但是我在网上看callback的一些代码就觉得头大。下面大家看一下这些
 
