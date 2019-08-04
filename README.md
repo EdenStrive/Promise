@@ -123,3 +123,4 @@ runAsync1()
 
 ##在then方法中，你也可以直接return数据而不是Promise对象，在后面的then中就可以接收到数据了 ，catch方法也是如此就不作多解释了。
 
+自己实现一个promise
